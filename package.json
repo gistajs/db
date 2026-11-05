@@ -1,0 +1,49 @@
+{
+  "name": "db",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "ship": "node scripts/ship.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@react-router/node": "^8.5.1",
+    "drizzle-orm": "^0.45.4",
+    "drizzle-zod": "^0.8.3",
+    "es-toolkit": "^1.53.1",
+    "isbot": "^5.2.2",
+    "lucide-react": "latest",
+    "nanoid": "^6.0.2",
+    "qs": "^6.17.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^8.5.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "daisyui": "^5.7.50",
+    "drizzle-kit": "^0.31.11",
+    "oxfmt": "^0.75.0",
+    "react-router-auto-routes": "^1.0.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "gistajs": {
+    "pin": "db:2026-11-05-003"
+  }
+}
